@@ -116,6 +116,7 @@
         <phase duration="20" state="grggrrgrggrr" name="3"/>
         <phase duration="20" state="grrgrggrrgrg" name="4"/>
         <phase duration="20" state="rrrrrrrrrrrr" name="5"/>
+        <phase duration="20" state="gggggggggggg" name="6"/>
     </tlLogic>
 
     <junction id="J0" type="dead_end" x="100.00" y="0.00" incLanes="-E0_0 -E0_1 -E0_2" intLanes="" shape="100.00,0.00 100.00,9.60 100.00,0.00"/>
