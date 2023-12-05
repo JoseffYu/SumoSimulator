@@ -18,16 +18,16 @@
     <route id="w2n" edges="E0 E1"/>
     <route id="w2s" edges="E0 -E3"/>
     <!-- Vehicles, persons and containers (sorted by depart) -->
-    <flow id="e2n" begin="0.00" from="E2" to="E1" end="3600.00" number="1800"/>
-    <flow id="e2s" begin="0.00" from="E2" to="-E3" end="3600.00" number="1800"/>
-    <flow id="e2w" begin="0.00" from="E2" to="-E0" end="3600.00" number="1800"/>
-    <flow id="n2e" begin="0.00" from="-E1" to="-E2" end="3600.00" number="1800"/>
-    <flow id="n2s" begin="0.00" from="-E1" to="-E3" end="3600.00" number="1800"/>
-    <flow id="n2w" begin="0.00" from="-E1" to="-E0" end="3600.00" number="1800"/>
-    <flow id="s2e" begin="0.00" from="E3" to="-E2" end="3600.00" number="1800"/>
-    <flow id="s2n" begin="0.00" from="E3" to="E1" end="3600.00" number="1800"/>
-    <flow id="s2w" begin="0.00" from="E3" to="-E0" end="3600.00" number="1800"/>
-    <flow id="w2e" begin="0.00" from="E0" to="-E2" end="3600.00" number="1800"/>
-    <flow id="w2n" begin="0.00" from="E0" to="E1" end="3600.00" number="1800"/>
-    <flow id="w2s" begin="0.00" from="E0" to="-E3" end="3600.00" number="1800"/>
+    <flow id="e2n" begin="0.00" from="E2" to="E1" end="3600.00" number="1000"/>
+    <flow id="e2s" begin="0.00" from="E2" to="-E3" end="3600.00" number="500"/>
+    <flow id="e2w" begin="0.00" from="E2" to="-E0" end="3600.00" number="800"/>
+    <flow id="n2e" begin="0.00" from="-E1" to="-E2" end="3600.00" number="500"/>
+    <flow id="n2s" begin="0.00" from="-E1" to="-E3" end="3600.00" number="800"/>
+    <flow id="n2w" begin="0.00" from="-E1" to="-E0" end="3600.00" number="1000"/>
+    <flow id="s2e" begin="0.00" from="E3" to="-E2" end="3600.00" number="1000"/>
+    <flow id="s2n" begin="0.00" from="E3" to="E1" end="3600.00" number="800"/>
+    <flow id="s2w" begin="0.00" from="E3" to="-E0" end="3600.00" number="500"/>
+    <flow id="w2e" begin="0.00" from="E0" to="-E2" end="3600.00" number="800"/>
+    <flow id="w2n" begin="0.00" from="E0" to="E1" end="3600.00" number="500"/>
+    <flow id="w2s" begin="0.00" from="E0" to="-E3" end="3600.00" number="1000"/>
 </routes>
